@@ -1,7 +1,7 @@
 # Finance
 ###Finance is an application that uses the IEX api to manage a stock portfolio using SQL, Flask, HTML and CSS.
 
-![](/static/finance.gif)
+![](/static/finance2.gif)
 
 ## Description
 Finance is a Stockmarket simulation using the IEX Api to get real-time stock data.
