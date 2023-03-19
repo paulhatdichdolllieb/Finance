@@ -1,0 +1,26 @@
+{% extends "layout.html" %}
+
+{% block title %}
+    Quoted
+{% endblock %}
+
+{% block main %}
+    <div class="mb-3">
+        <table>
+            <thead>
+                <tr>
+                    <th>Symbol</th>
+                    <th>Name</th>
+                    <th>Price</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>{{ info["symbol"] }}</td>
+                    <td>{{ info["name"] }}</td>
+                    <td>{{ "%.2f"|format(info["price"]) }}</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+{% endblock %}
